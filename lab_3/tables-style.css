@@ -1,0 +1,191 @@
+.text-center{
+    text-align: center;
+}
+.border_table_1{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+.border_table_1 th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+ }
+
+.border_table_2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightblue;
+ }
+
+
+ .border_table_2 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: yellow;
+ }
+ .border_table_2 td:first-of-type{
+    background-color: royalblue;
+}
+ .border_table_2 td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+ }
+ 
+.border_table_2 tr:last-of-type td{
+    background-color: green;
+}
+
+
+ .table-3{
+     border-color: blue;
+   
+ }
+
+ .table-3 th{
+     border-color: blue;
+     border-width: 2px;
+     color: blue;
+     padding: 10px;
+     width: 10px;
+     
+ }
+ .table-3 td{
+    border-color: blue;
+    color: cornflowerblue;
+    border-width: 2px;
+    padding: 10px;
+    width: 10px;
+    
+}
+
+.table-4{
+    border: 2px solid rgba(144, 3, 3, 0.945);
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.table-4 th{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    color:rgb(221, 136, 105);
+    font-weight: 550;
+    font-size: larger;
+    background-color:rgb(11, 11, 116);
+    padding: 4%;
+    text-align: left;
+    border: 2px solid rgba(144, 3, 3, 0.945);
+}
+.table-4 td{
+    border: 2px solid rgba(144, 3, 3, 0.945);
+}
+.table-4  td{
+    background-color: rgb(241, 218, 192);
+}
+.table-4 tr:last-of-type td:first-of-type{
+    
+    background-color:  rgb(11, 11, 116);
+    color: white;
+}
+
+.table-4 tr:last-of-type td{
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom:  40%;
+    text-align: left;
+}
+
+.table-5{
+    border: 2px solid yellowgreen;
+    
+    background-color: rgb(213, 231, 204);
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.table-5 tr:first-of-type th:first-of-type{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border: 2px solid yellowgreen;
+    background-color: rgb(6, 61, 6);
+    padding: 4%;
+    color: yellow;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.table-5 td{
+    border: 2px solid yellowgreen;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 35%;
+}
+.table-5 tr:first-of-type td:first-of-type{
+    background-color: rgb(197, 197, 31);
+}
+.table-5 tr:last-of-type td{
+    background-color: rgb(6, 61, 6);
+    color: yellow;
+    padding: 0;
+    padding-left: 2%;
+    
+}
+
+.table-6{
+    border:  2px solid rgba(144, 3, 3, 0.945);
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.table-6  th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border:  2px solid rgba(144, 3, 3, 0.945);
+    padding: 4%;
+    text-align: left;
+    background-color: rgb(170, 121, 199);
+    color:rgb(68, 16, 88);
+    font-size: larger;
+    
+}
+
+.table-6 td{
+    padding-left: 4%;
+    padding-bottom: 3%;
+    border:  2px solid rgba(144, 3, 3, 0.945);
+    background-color: thistle;
+}
+
+.table-6 tr:first-of-type td:first-of-type{
+    width: 30%;
+    padding: 0;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 35%;
+    background-color: rgb(68, 16, 88);
+    color: rgb(241, 218, 192);
+    
+}
+.table-6 tr:last-of-type td:first-of-type{
+    padding-left: 4%;
+    padding-top: 5%;
+    padding-bottom: 35%;
+    background-color:  rgb(241, 218, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

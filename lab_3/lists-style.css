@@ -1,0 +1,29 @@
+.square-list{
+    list-style-type: square;
+}
+
+.disc-list{
+    list-style-type: disc;
+}
+
+.word-list{
+    list-style-type: lower-alpha;
+}
+
+.upper-word-list{
+    list-style-type: upper-alpha;
+}
+
+.roman-list{
+    list-style-type: lower-roman ;
+}
+
+.image-list{
+    
+    list-style-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu-HuWl7iPCN0FWvr_oE7bPI_VRuMTJgXdbz0V8x=s32-c-mo);
+}
+
+.roman-big-list{
+    list-style-type: upper-roman ;
+}
+
