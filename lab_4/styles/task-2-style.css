@@ -1,0 +1,154 @@
+.form-1{
+    border:1px solid  rgb(235, 232, 232);
+    width: 270px;
+    background-color: rgb(235, 232, 232);
+}
+.form-1 label{
+    margin: 2px;
+}
+.form-1 input{
+    margin: 2px;
+}
+
+
+.form-2-1 label{
+    float: left;
+   
+}
+.form-2-1{
+    float: left;
+    width: 150px;
+}
+.form-2-2{
+    width: 500px;
+}
+
+
+
+.rozetka{
+    border: 1px solid black;
+    width:500px;
+    
+}
+.rozetka-header{
+    color: black;
+    padding-right: 10px;
+    padding-left:10px;
+    border-bottom: 1px solid lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.rozetka-body-1{
+    color: rgb(138, 135, 135);
+    font-size:12px; 
+    font-family: Arial, Helvetica, sans-serif;
+    width:275px;
+    margin: 15px;
+    border-right: 2px solid lightgrey;
+    
+}
+.rozetka-body-1 input[type="email"], .rozetka-body-1 input[type="password"],.rozetka-body-1 button, .rozetka-body-1 input[type="text"]{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+.rozetka-body-1 button{
+    margin-top: 15px;
+    background-color: rgb(4, 165, 4);
+    color: white;
+    font-size: 20px;
+    border: none
+}
+
+.rozetka-body-1 a{
+    position: relative;
+    left:30px;
+}
+.rozetka-body-1 a:last-child{
+    position: relative;
+    left:70px;
+}
+
+.rozetka-body-2 {
+    color: rgb(138, 135, 135);
+    font-size:12px;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    position: absolute;
+    left:320px;
+    top:520px;
+    width: 200px;
+}
+
+.rozetka-body-2 p{
+
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background: rgb(243, 243, 243);
+}
+ .facebook{
+    margin-left: 9px;
+    margin-top: 10px;
+    background: url("facebook.ico") no-repeat left;
+    background-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+.google{
+    margin-left: 20px;
+    margin-top: 10px;
+    background: url("google.png") no-repeat left;
+    background-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+
+.rozetka-body-3{
+    color: rgb(138, 135, 135);
+    font-size:12px;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    position: absolute;
+    left:320px;
+    top:885px;
+    width: 200px;
+}
+
+.rozetka-body-3 p{
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+

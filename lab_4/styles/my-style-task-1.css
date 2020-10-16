@@ -1,0 +1,29 @@
+
+.l6:link{
+    border-bottom: 1px split black;
+}
+.l6:visited{
+    color: red;
+}
+.l6:hover{
+    color: green;
+}
+.l6:active{
+    color: black;
+    background-color: lightblue;
+}
+
+.l7{
+    text-decoration: none;
+}
+.l8{
+    text-decoration: none;
+}
+.l8:hover{
+    text-decoration: underline;
+}
+.l9{
+    background-image: url(./next_page.ico) no-repeat left;
+}
+
+
