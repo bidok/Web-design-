@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style/style-task-1.css">
+
+    <body >
+        <div class = "main">
+        <div class = "anketa">
+            <form>
+                <fieldset>
+                    <legend>Загальна інформація</legend>
+            <label>1. Пошук по анкеті</label><br>
+            <input type="search" placeholder="пошук"><br>
+            <label>2. Вкажіть свою електронну почту</label><br>
+            <input type="email" required autocomplete="off" placeholder="елктронна пошта" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+            <label>3. Вкажіть свій телефон</label><br>
+            <input type="tel" pattern="[\+]\d{12}" placeholder="номер телефона"><br>
+            <label>4. Вкажіть свій вік</label><br>
+            <input type="number" required placeholder="вік"><br>
+            <label>5. Вкажіть дату народження</label><br>
+            <input type="date"><br>
+            <label>6. Вкажіть час заповнення анкети</label><br>
+            <input type="datetime-local"><br>
+            <label>7. Вкажіть ваш олюблений місяць</label><br>
+            <input type="month"><br>
+            <label>8. Вкажіть ваш олюблений день неділі</label><br>
+            <input type="week"><br>
+            <label>9. Вкажіть скільки годин ви витратили на нашому сайті</label><br>
+            <input type="time" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Інформація про сайт</legend>
+            <label>10. Оцініть якість дизайну даного веб-сайту</label><br>
+                <input type="radio" name="mark1"> <label>1 бал</label> <meter min="0" max="5" value="1"></meter><br>
+                <input type="radio" name="mark1"> <label>2 бала</label><meter min="0" max="5" value="2"></meter><br>
+                <input type="radio" name="mark1"> <label>3 бала</label><meter min="0" max="5" value="3"></meter><br>
+                <input type="radio" name="mark1"> <label>4 бала</label><meter min="0" max="5" value="4"></meter><br>
+                <input type="radio" name="mark1"> <label>5 баллів</label><meter min="0" max="5" value="5"></meter><br>
+            <label>11. Оцініть важкість пошуку інформації на даному веб-сайті</label> <br>
+                <input type="range"><br>
+            <label>12. Вкажіть сайт, який на вашу думку кращий за наш</label><br>
+            <input type="url" pattern="https://.*" placeholder="адреса сайту"><br>          
+            <label>13. Придумайте пароль</label><br>
+            <input type="password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6}$"placeholder="пароль"><br>
+            <label>14. Як покращити наш сайт</label><br>
+            <textarea maxlength="100"placeholder="ведіть сюди ваш текст"></textarea> <br>
+            <label>15. введіть порядковий номер</label><br>
+            <input type="text" list="list" placeholder="поле введення">
+                <datalist id="list">
+                    <option>Один</option>
+                    <option>Два</option>
+                    <option>Три</option>
+                    <option>Чотири</option>
+                </datalist><br>
+            <label>Прогрес заповнення анкети</label><br>
+            <progress max="100" value="80">80%</progress><br>
+            </fieldset>
+            <button type="submit">Відіслати</button><br>
+            <button type="reset">Скинути</button><br>
+            <button ><a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwjqmePmxMXsAhXpxIsKHfKSAwkQPAgI">Ввійти за домогою Google</a></button>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>

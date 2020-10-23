@@ -1,0 +1,386 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.form-1{
+    background-color: rgb(221, 220, 220);
+    border: 20px solid rgb(221, 220, 220);
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-1 input{
+    background-color: rgb(221, 220, 220);
+}
+.form-1 form{
+        border: 1px solid grey;
+}
+
+.form-1-head{
+    height: 30px;
+    background: repeating-linear-gradient(-45deg, rgba(215, 216, 201, 0.678), rgba(215, 216, 201, 0.678) 10px, grey 3px, grey 15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+
+}
+.form-1-head div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 13px solid rgba(134, 98, 98, 0.685) ;
+}
+.form-1 label:first-of-type{
+    margin-left: 10px;
+}
+.form-1 input[type = "text"]{
+    border: none;
+    height: 30px;
+    margin: 10px;
+    width: 385px;
+    outline: none;
+}
+.form-1 input[type = "text"]:valid, .form-1 input[type = "email"]:valid{
+    border: none;
+    border-radius: 0%;
+    background-color: lightblue;
+    
+}
+.form-1-name{
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.form-1 textarea{
+    font-size: 30px;
+    
+    margin:10px;
+    width: 377px;
+    height: 240px;
+    border: none;
+    background-color: rgb(221, 220, 220);
+    outline: none;
+    text-decoration: underline;
+    text-decoration-style: dotted;resize: none;
+}
+
+div.foot{
+    background-color: grey;
+    height: 40px;
+    border-bottom: 1px solid  rgb(221, 220, 220);
+}
+.foot input[type = "email"], .foot input[type = "tel"], .foot button{
+    height: 40px;
+    margin-left: 41px;
+    background-color:  rgb(221, 220, 220);
+    width: 357px;
+    border: 1px solid grey;
+    
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+    padding-top: 19px;
+}
+
+.form-2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 252, 235);
+    border: 7px solid rgb(231, 208, 182);
+    width: 400px;
+    
+}
+.form-2 form{
+    border: 10px solid black;
+    border-image: repeating-linear-gradient(-45deg, rgb(196, 40, 126) ,rgb(196, 40, 126) 10px, transparent 10px,transparent 20px, lightpink 20px,lightpink 30px , transparent 30px,transparent 40px);
+    border-image-slice: 7;
+
+}
+.form-2 label, .form-2 input, .form-2 textarea, .form-2 button{
+    margin: 15px;
+}
+.form-2 label{
+    position: relative;
+    top: 10px;
+}
+.form-2 input{
+    height: 33px;
+    border: none;
+    width: 355px;
+    border-bottom: 4px dotted lightgrey;
+    background-color: rgb(255, 252, 235);
+}
+.form-2 textarea{
+    background-color:rgb(255, 252, 235);
+    border: none;
+    width:355px;
+    height: 250px;
+    border-bottom: 4px dotted lightgrey;
+    border-top: 4px dotted lightgrey;
+    outline: none;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 30px;
+    resize: none;
+}
+.form-2 button{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(155, 12, 90);
+    color: white;
+    height: 33px;
+    margin-left: 80px;
+}
+.form-2 input[type = "text"]:valid{
+    outline: none;
+    background-color: lightsteelblue;
+    border: none;
+}
+.form-2 input:focus{
+    outline: none;
+    background-color: lightsteelblue;
+    border: none;
+}
+
+.form-3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 300px;
+    background: url("./image-form-3.jpg");
+    padding-top: 50px;
+    font-size: 10px;
+    
+}
+.form-3 label{
+    opacity: 0.8;
+}
+
+.form-3 label:first-of-type{
+    font-size: 17px;
+    opacity: 1;
+}
+.form-3 label, .form-3 input, .form-3 button{
+    
+    margin-left: 50px;
+}
+.form-3 hr{
+    background-color: rgb(81, 81, 214);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(81, 81, 214);
+}
+
+.form-3 label:last-of-type{
+    margin-left: 5px;
+}
+.form-3 input, .form-3 button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.form-3 input[type = "text"], .form-3 input[type = "password"], .form-3 button{
+    height: 33px;
+    width: 200px;
+}
+.form-3 button{
+    background-color: rgb(81, 81, 214);
+    color: white;
+}
+.form-3 label:last-of-type{
+    font-size: 13px;
+    text-align: justify;
+}
+
+
+.form-3 input:valid{
+    opacity: 0.6;
+}
+.form-3 input[type = "text"]:focus, .form-3 input[type = "password"]:focus{
+    outline: none;
+    opacity: 1;
+}
+
+.form-4{
+    width:350px;
+    border-top: 40px solid #fff2e4;
+    border-bottom: 7px solid  #fff2e4;
+    border-right: 7px solid  #fff2e4;
+    border-left: 7px solid  #fff2e4;
+    background-color : #fff8f3 ;
+    font-family: cursive;
+    color: grey;
+    font-size: 25px;
+}
+.form-4-head{
+    background-color: white;
+    border: 1px solid white;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-4 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -30px;
+    left: 140px;
+}
+.form-4-head p{
+    font-size: 25px;
+}
+.form-4 hr:first-of-type{
+    margin: unset;
+    height:3px;
+    border-left:2px solid#fff8f3 ;
+    border-right:2px solid  #fff8f3;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgrey;
+}
+.form-4-body{
+    padding-top: 25px;
+    text-align: center;
+}
+.form-4-body input:first-of-type , .form-4-body select:last-of-type{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 37px;
+}
+.form-4-body select:first-of-type{
+    margin-bottom: 50px;
+}
+.form-4-body button{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 25px;
+    background-color:#ff6b6b;
+    color: white;
+    height: 37px;
+    width: 200px;
+}
+.form-4-body select{
+    height: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-4-body select:first-of-type{
+    width: 45px;
+    text-align: center;
+    padding-left: 7px;
+}
+.form-4-body input:first-of-type{
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-4-body select:last-of-type{
+    width: 150px;
+    padding-left: 20px;
+}
+.form-4-body input:first-of-type:focus,.form-4-body input:first-of-type:valid {
+    outline: none;
+    border:1px solid grey;
+    background-color:#e9f0fe;
+}
+.form-4-body select:first-of-type:focus{
+    outline: none;
+    border: 1px solid red;
+}
+.form-4-body select:last-of-type:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+.form-4 form{
+    margin-bottom: unset;
+    border-bottom: 30px solid white;
+}
+.from-4 div{
+    box-shadow: 3px,3px,2px, black;
+}
+
+
+
+
+.form-5-content {
+    width: 400px;
+    height: 570px;
+    background-color: whitesmoke;
+   
+    border: 5px solid rgb(181, 224, 231);
+  }
+  
+  .form-5-head {
+    position: relative;
+    height: 150px;
+    padding-top: 75px;
+    padding-left: 100px;
+  }
+  .form-5-head h1 {
+    z-index: 5;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: blue;
+    
+  }
+  .form-5-triangle {
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    left: 180px;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid rgb(255, 220, 225);
+  }
+  .form-5-round {
+    z-index: 1;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-left: 12px;
+    background: rgb(223, 197, 223);
+    border-radius: 50%;
+  }
+  .form-5-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25px;
+  }
+
+  .form-5-body input[type="email"], .form-5-body input[type="password"]{
+    margin-top: 40px;
+    padding-left: 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(27, 69, 209);
+  }
+  .form-5-body input:focus{
+      border: none;
+      border-bottom: 2px solid red;
+  }
+
+  .form-5-body button{
+        margin-top: 60px;
+        width: 300px;
+        height: 40px;
+        border: none;
+        background-color: rgb(98, 98, 236);
+        color: white;
+        font-size: larger;
+  }
+  
+
+
+
+
