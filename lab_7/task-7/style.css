@@ -1,0 +1,72 @@
+
+.conteiner div{
+    border: 1px solid black;
+    font-family: cursive;
+}
+.header{
+    width: 960px;
+    height: 70px;
+    background-image: url(https://thumbs.dreamstime.com/b/%D0%B1%D0%B5-%D1%8B%D0%B9-%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-39597616.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 430px;
+}
+.left-column{
+    width: 200px;
+}
+ .right-column{
+    width: 150px;
+    
+}
+.left-column ul, .right-column ul{
+    list-style-type: none;
+}
+.left-column a, .right-column a{
+    text-decoration: none;
+    color: lightblue;
+}
+.left-column a:hover, .right-column a:hover{
+    text-decoration: underline;
+}
+.centr{
+    width: 610px;
+    left: 200px;
+}
+
+.body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer{
+    height: 70px;
+    width: 960px;
+    position: relative;
+    left:430px;
+    
+}
+.centr img{
+    height: 300px;
+    width: 50px;
+    
+}
+.centr p{
+    position: relative;
+    top:-270px;
+    left: 80px;
+    width: 70%;
+}
+.footer p{
+    margin-left: 50px;
+}
+.centr span{
+    position: relative;
+    top:-280px;
+    left: 50%;
+}
+.centr span a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}

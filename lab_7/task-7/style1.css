@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    position: relative;
+    left: 0;
+}
+.left-column{
+    width: 20%;
+}
+.right-column{
+    width:25%;
+}
+.center{
+    width: 55%;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    left: 0px;
+}

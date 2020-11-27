@@ -1,0 +1,14 @@
+.header, .footer{
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+.left-column{
+    width: 250px;
+}
+.right-column{
+    width: 250px;
+}
+.center{
+    width: max-content;
+}
